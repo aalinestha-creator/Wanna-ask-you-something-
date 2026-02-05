@@ -25,7 +25,7 @@
     img {
       width: 230px;
       margin-bottom: 15px;
-      border-radius: 15px;
+      border-radius: 18px;
     }
 
     h1 {
@@ -56,9 +56,8 @@
 <body>
 
 <div class="container">
-  <!-- cute couple image -->
-  <img src="https://pixabay.com/get/gdf027748dcc76f29a187caeebda64063dcf2950f2caaff102f41ad9f5f89a93c0ccab96d71dbd150deeeda650b70bc74_640.jpg" 
-       alt="Happy Valentines Day Couple">
+  <!-- Embedded image -->
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Cute Cat">
 
   <h1>Will you be my Valentine? 💖</h1>
 
@@ -72,22 +71,16 @@
     "Pleaseeee 🥺",
     "Think again 💭",
     "Don’t break my heart 💔",
-    "I’ll be really sad 😭",
+    "Look how cute I am 😭",
+    "I’ll be really sad 😿",
     "Pretty please 💕",
-    "Minions are sad now 😟",
-    "I brought chocolates 🍫",
-    "I’ll share my fries 🍟",
-    "Heart getting bigger 💗",
-    "You’re my favorite 🥰",
-    "Just say yes already 😩",
-    "This heart is growing 💓",
-    "I’ll keep trying 💛",
-    "Give me one chance 🙏",
-    "Still no? 🥲",
-    "Come on now 😄",
-    "You make my world 💞",
-    "You and me forever? 💑",
-    "Tap YES 💕"
+    "I promise cuddles 🤍",
+    "You and me? 🥰",
+    "My heart is growing 💗",
+    "Just say yes 😩",
+    "Okay now you’re teasing 😆",
+    "One last try 😭",
+    "Say yes already 💞"
   ];
 
   let count = 0;
@@ -104,7 +97,7 @@
   function yesClicked() {
     document.body.innerHTML = `
       <div style="text-align:center;">
-        <img src="https://pixabay.com/get/gdf027748dcc76f29a187caeebda64063dcf2950f2caaff102f41ad9f5f89a93c0ccab96d71dbd150deeeda650b70bc74_640.jpg"
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." 
              style="width:240px;border-radius:20px;">
         <h1 style="color:#ff4d6d;">YAYYYY 💕🥰</h1>
         <h2>You just made me the happiest 💛</h2>
