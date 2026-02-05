@@ -19,11 +19,11 @@
       padding: 30px;
       border-radius: 20px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      max-width: 360px;
+      max-width: 380px;
     }
 
     img {
-      width: 200px;
+      width: 230px;
       margin-bottom: 15px;
       border-radius: 15px;
     }
@@ -56,7 +56,9 @@
 <body>
 
 <div class="container">
-  <img src="https://media.tenor.com/7b6Z8sLwQp0AAAAC/minions-love.gif" alt="Minions Cute">
+  <!-- cute couple image -->
+  <img src="https://pixabay.com/get/gdf027748dcc76f29a187caeebda64063dcf2950f2caaff102f41ad9f5f89a93c0ccab96d71dbd150deeeda650b70bc74_640.jpg" 
+       alt="Happy Valentines Day Couple">
 
   <h1>Will you be my Valentine? 💖</h1>
 
@@ -70,22 +72,22 @@
     "Pleaseeee 🥺",
     "Think again 💭",
     "Don’t break my heart 💔",
-    "Minions are worried 😟",
     "I’ll be really sad 😭",
-    "Just one chance 🥹",
+    "Pretty please 💕",
+    "Minions are sad now 😟",
     "I brought chocolates 🍫",
     "I’ll share my fries 🍟",
-    "Minions say pleaseeee 🐥",
-    "My heart is shaking 💓",
-    "I promise to be nice 😇",
-    "You won’t regret it 😏",
-    "Still no? 😭",
-    "Look how big YES is 😳",
-    "Okay now you’re teasing 😆",
-    "Minions are crying now 😭",
-    "Pretty please with love 💕",
-    "You’re my favorite person 🥰",
-    "Just tap YES already 😩"
+    "Heart getting bigger 💗",
+    "You’re my favorite 🥰",
+    "Just say yes already 😩",
+    "This heart is growing 💓",
+    "I’ll keep trying 💛",
+    "Give me one chance 🙏",
+    "Still no? 🥲",
+    "Come on now 😄",
+    "You make my world 💞",
+    "You and me forever? 💑",
+    "Tap YES 💕"
   ];
 
   let count = 0;
@@ -95,7 +97,6 @@
     const noBtn = document.getElementById("noBtn");
 
     count++;
-
     yesBtn.style.fontSize = (18 + count * 4) + "px";
     noBtn.innerText = noTexts[count % noTexts.length];
   }
@@ -103,8 +104,8 @@
   function yesClicked() {
     document.body.innerHTML = `
       <div style="text-align:center;">
-        <img src="https://media.tenor.com/YQzjJf7nN9sAAAAC/minions-happy.gif"
-             style="width:220px;border-radius:20px;">
+        <img src="https://pixabay.com/get/gdf027748dcc76f29a187caeebda64063dcf2950f2caaff102f41ad9f5f89a93c0ccab96d71dbd150deeeda650b70bc74_640.jpg"
+             style="width:240px;border-radius:20px;">
         <h1 style="color:#ff4d6d;">YAYYYY 💕🥰</h1>
         <h2>You just made me the happiest 💛</h2>
         <h3>My Valentine forever ❤️</h3>
